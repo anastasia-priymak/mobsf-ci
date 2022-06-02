@@ -6,6 +6,8 @@ require 'json'
 mobsf_url = ENV["MOBSF_URL"]
 target = ENV["TARGET_PATH"]
 
+sleep 5
+
 puts "Starting to scan \"#{target}\""
 
 begin 
